@@ -105,6 +105,8 @@ See the [`examples` directory](examples) for more snapshot examples.
   [Asciinema](https://asciinema.org/) allow recording terminal sessions and save them to SVG.
   The output of these tools is inherently *dynamic* (which, e.g., results in animated SVGs).
   This crate intentionally chooses a simpler static format, which makes snapshot testing easier.
+- [AnisToImg](https://github.com/FHPythonUtils/AnsiToImg) converts text with ANSI color sequences
+  into an SVG file, but is not designed for testing.
 
 ## License
 
